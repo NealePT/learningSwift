@@ -16,6 +16,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
         
+        if let statusButton = statusItem.button {
+            statusButton.image = NSImage(systemSymbolName: "pawprint.circle", accessibilityDescription: "Paw")
+        }
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
