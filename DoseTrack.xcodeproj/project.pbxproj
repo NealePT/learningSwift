@@ -11,6 +11,8 @@
 		206FE9DD28DB989F0041CBD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206FE9DC28DB989F0041CBD8 /* ViewController.swift */; };
 		206FE9DF28DB98A00041CBD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 206FE9DE28DB98A00041CBD8 /* Assets.xcassets */; };
 		206FEA0828DB99840041CBD8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206FEA0728DB99840041CBD8 /* main.swift */; };
+		206FEA0B28DCC8B30041CBD8 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206FEA0A28DCC8B30041CBD8 /* WebService.swift */; };
+		206FEA0D28DCC93A0041CBD8 /* Fact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206FEA0C28DCC93A0041CBD8 /* Fact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		206FE9F228DB98A00041CBD8 /* DoseTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoseTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		206FEA0728DB99840041CBD8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		206FEA0928DBA0660041CBD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		206FEA0A28DCC8B30041CBD8 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		206FEA0C28DCC93A0041CBD8 /* Fact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 				206FE9DE28DB98A00041CBD8 /* Assets.xcassets */,
 				206FE9E328DB98A00041CBD8 /* DoseTrack.entitlements */,
 				206FEA0728DB99840041CBD8 /* main.swift */,
+				206FEA0A28DCC8B30041CBD8 /* WebService.swift */,
+				206FEA0C28DCC93A0041CBD8 /* Fact.swift */,
 			);
 			path = DoseTrack;
 			sourceTree = "<group>";
@@ -229,6 +235,8 @@
 			files = (
 				206FE9DD28DB989F0041CBD8 /* ViewController.swift in Sources */,
 				206FE9DB28DB989F0041CBD8 /* AppDelegate.swift in Sources */,
+				206FEA0D28DCC93A0041CBD8 /* Fact.swift in Sources */,
+				206FEA0B28DCC8B30041CBD8 /* WebService.swift in Sources */,
 				206FEA0828DB99840041CBD8 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
